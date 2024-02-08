@@ -22,7 +22,7 @@
           <h5 class="card-title">Купи шось </h5>
           <p class="card-text">Супер геймерська клавіатура за сочною ціною 1000грн!! з лгбт підсвіткою Без торгу!!!</p>
           <p class="card-text"><small class="text-muted">Було обновлено десять років тому</small></p>
-          <button  type="button" class="btn btn-primary">В кошик</button>
+          <button onclick="showPrice()" type="button" class="btn btn-primary">В кошик</button>
         </div>
       </div>
     </div>
@@ -39,9 +39,11 @@
   </style>
 
   <script>
-    let button = document.getElementsByClassName("btn btn-primary");
-    addEventListener()
-    let age = prompt('Ваша Ціна за Клаву?', 100);
+     function showPrice (){
+          let button = document.getElementsByClassName("btn btn-primary");
+            let age = prompt('Ваша Ціна за Клаву?', 100);  
+     } 
+   
 
     alert(`ваша ${age} Ціна`); // Тебе 100 лет!
   </script>
